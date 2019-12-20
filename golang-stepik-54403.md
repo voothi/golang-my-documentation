@@ -186,6 +186,8 @@ Sample Output:
 It is 3 hours 0 minutes.  
 https://github.com/voothi/golang-my-experiments/commit/e9261fc54b79838a11b8a89437780b6f11fae0a3
 
+ ### Константы
+https://stepik.org/lesson/228264/step/1?unit=200797
 
 
 
