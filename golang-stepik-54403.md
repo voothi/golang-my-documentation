@@ -111,7 +111,80 @@ var c int = 10 % 3
 Вывод: 1  
 
  ### Чтение данных с консоли
+https://stepik.org/lesson/228261/step/8?unit=200794
 
+ ### Вывод данных на консоль
+https://stepik.org/lesson/228261/step/9?unit=200794
+
+fmt.Print("Ivan", 27) // Ivan27  
+fmt.Println("Ivan", 27) // Ivan 27  
+fmt.Print(33, 27) // 33 27 (Нет строк (obj) - через пробел)  
+
+Считать данные из консоли  
+fmt.Scan(&a)
+
+* Напишите программу, которая  
+
+  * последовательно делает  
+    * операции  
+    * с каждым числом:
+
+Число умножается на 2;  
+Затем к числу прибавляется 100.  
+https://github.com/voothi/golang-my-experiments/commit/5ef82699bec358b08bff14ee3f68a0b5e9ca9b6d  
+
+* Исправьте программу  
+
+Sample Input:  
+2  
+2  
+Sample Output:  
+8  
+https://github.com/voothi/golang-my-experiments/commit/4c90480b8c352dbdcc27d4920c8f110f71d15985  
+
+* По данному целому числу, найдите его квадрат.  
+
+Формат входных данных  
+На вход дается одно целое число.  
+
+Формат выходных данных  
+Программа должна вывести квадрат данного числа.  
+
+Sample Input:  
+3  
+Sample Output:  
+9  
+https://github.com/voothi/golang-my-experiments/commit/9fc608fa42e4ab988b7312cb219db18994938518
+
+* Дано натуральное число, выведите его последнюю цифру.  
+
+Формат входных данных  
+На вход дается натуральное число N, не превосходящее 10000.  
+Формат выходных данных  
+Выведите одно целое число - ответ на задачу.  
+Sample Input:  
+123  
+Sample Output:  
+3  
+https://github.com/voothi/golang-my-experiments/commit/4b5a773f74671714861395fdecbbde6d204d11e9  
+
+Дано неотрицательное целое число. Найдите число десятков (то есть вторую цифру справа).  
+https://github.com/voothi/golang-my-experiments/commit/4c76158b88cba7292cbb588e524ac5ec5bb2219e
+
+
+* Часовая стрелка повернулась с начала суток на d градусов. Определите, сколько сейчас целых часов h и целых минут m.  
+
+Входные данные  
+На вход программе подается целое число d (0 < d < 360).  
+Выходные данные  
+Выведите на экран фразу:  
+It is ... hours ... minutes.  
+Вместо многоточий программа должна выводить значения h и m, отделяя их от слов ровно одним пробелом.  
+Sample Input:  
+90  
+Sample Output:  
+It is 3 hours 0 minutes.  
+https://github.com/voothi/golang-my-experiments/commit/e9261fc54b79838a11b8a89437780b6f11fae0a3
 
 
 
